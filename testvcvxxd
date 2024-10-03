@@ -1,0 +1,2242 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local coolderguasquadGui = Instance.new("Frame")
+local Frame2 = Instance.new("Frame")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Frame3 = Instance.new("Frame")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Frame9 = Instance.new("Frame")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local Frame8 = Instance.new("Frame")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local Frame10 = Instance.new("Frame")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local Frame11 = Instance.new("Frame")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local Frame1 = Instance.new("Frame")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local Frame6 = Instance.new("Frame")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local Frame13 = Instance.new("Frame")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local Frame16 = Instance.new("Frame")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local Frame16_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local Frame7 = Instance.new("Frame")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local Frame17 = Instance.new("Frame")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local Frame15 = Instance.new("Frame")
+local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
+local Frame18 = Instance.new("Frame")
+local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
+local Frame4 = Instance.new("Frame")
+local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
+local Frame4_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+local Frame4_3 = Instance.new("Frame")
+local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
+local coolderguasquad_2875FEV2 = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
+local Scripts = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
+local Guis = Instance.new("TextLabel")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+local ViewportFrame = Instance.new("ViewportFrame")
+local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
+local OtherimportantGuis = Instance.new("TextLabel")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
+local Name = Instance.new("TextLabel")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+local Close = Instance.new("TextButton")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
+local creditsframe = Instance.new("Frame")
+local GUIDesignTttagjgjgj = Instance.new("TextLabel")
+local UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local Scripterspanp_1 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local ButtonsIdeasIsomax2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local Ok = Instance.new("TextButton")
+local UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local Frame = Instance.new("Frame")
+local UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint")
+local GUIDesignTttagjgjgj_2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_32 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_33 = Instance.new("UIAspectRatioConstraint")
+local Teamcoolderguasquad_2875 = Instance.new("TextLabel")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_34 = Instance.new("UIAspectRatioConstraint")
+local walkspeedgui = Instance.new("Frame")
+local OK = Instance.new("TextButton")
+local UIAspectRatioConstraint_35 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local TextBox = Instance.new("TextBox")
+local UIAspectRatioConstraint_36 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint_37 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+local Frame_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_38 = Instance.new("UIAspectRatioConstraint")
+local TextButton = Instance.new("TextButton")
+local UIAspectRatioConstraint_39 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_40 = Instance.new("UIAspectRatioConstraint")
+local Frame4_4 = Instance.new("Frame")
+local UIAspectRatioConstraint_41 = Instance.new("UIAspectRatioConstraint")
+local OtherimportantGuis_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_42 = Instance.new("UIAspectRatioConstraint")
+local Cursors = Instance.new("TextLabel")
+local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_43 = Instance.new("UIAspectRatioConstraint")
+local _2006robloxcursor = Instance.new("TextButton")
+local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_44 = Instance.new("UIAspectRatioConstraint")
+local YourcharacterGui = Instance.new("TextButton")
+local UITextSizeConstraint_20 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_45 = Instance.new("UIAspectRatioConstraint")
+local Lightoncharacter = Instance.new("TextButton")
+local UITextSizeConstraint_21 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_46 = Instance.new("UIAspectRatioConstraint")
+local coolden_287DecalSpam = Instance.new("TextButton")
+local UITextSizeConstraint_22 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_47 = Instance.new("UIAspectRatioConstraint")
+local coolden_287Skybox = Instance.new("TextButton")
+local UITextSizeConstraint_23 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_48 = Instance.new("UIAspectRatioConstraint")
+local Isomax_EXEDecalSpam = Instance.new("TextButton")
+local UITextSizeConstraint_24 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_49 = Instance.new("UIAspectRatioConstraint")
+local imguard_InvationstudiDecalSpam = Instance.new("TextButton")
+local UITextSizeConstraint_25 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_50 = Instance.new("UIAspectRatioConstraint")
+local imguard_InvationstudiSkybox = Instance.new("TextButton")
+local UITextSizeConstraint_26 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_51 = Instance.new("UIAspectRatioConstraint")
+local Fireoncharacter = Instance.new("TextButton")
+local UITextSizeConstraint_27 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_52 = Instance.new("UIAspectRatioConstraint")
+local SpeedChangerGui = Instance.new("TextButton")
+local UITextSizeConstraint_28 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_53 = Instance.new("UIAspectRatioConstraint")
+local Dynablocks2004cursor = Instance.new("TextButton")
+local UITextSizeConstraint_29 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_54 = Instance.new("UIAspectRatioConstraint")
+local credits = Instance.new("TextButton")
+local UITextSizeConstraint_30 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_55 = Instance.new("UIAspectRatioConstraint")
+local acseruis_297DecalSpam = Instance.new("TextButton")
+local UITextSizeConstraint_31 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_56 = Instance.new("UIAspectRatioConstraint")
+local acseruis_297DecalSpam_2 = Instance.new("TextButton")
+local UITextSizeConstraint_32 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_57 = Instance.new("UIAspectRatioConstraint")
+local Sparklesoncharacter = Instance.new("TextButton")
+local UITextSizeConstraint_33 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_58 = Instance.new("UIAspectRatioConstraint")
+local Roblox2013cursor = Instance.new("TextButton")
+local UITextSizeConstraint_34 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_59 = Instance.new("UIAspectRatioConstraint")
+local YourNameGui = Instance.new("TextButton")
+local UITextSizeConstraint_35 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_60 = Instance.new("UIAspectRatioConstraint")
+local Noclip = Instance.new("TextButton")
+local UITextSizeConstraint_36 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_61 = Instance.new("UIAspectRatioConstraint")
+local Isomax_EXESkybox = Instance.new("TextButton")
+local UITextSizeConstraint_37 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_62 = Instance.new("UIAspectRatioConstraint")
+local imguard_InvationstudiSkybox_2 = Instance.new("TextButton")
+local UITextSizeConstraint_38 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_63 = Instance.new("UIAspectRatioConstraint")
+local imguard_InvationstudiSkybox_3 = Instance.new("TextButton")
+local UITextSizeConstraint_39 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_64 = Instance.new("UIAspectRatioConstraint")
+local Smokeoncharacter = Instance.new("TextButton")
+local UITextSizeConstraint_40 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_65 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+coolderguasquadGui.Name = "coolderguasquadGui"
+coolderguasquadGui.Parent = ScreenGui
+coolderguasquadGui.BackgroundColor3 = Color3.fromRGB(2, 0, 3)
+coolderguasquadGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+coolderguasquadGui.BorderSizePixel = 0
+coolderguasquadGui.Position = UDim2.new(0.275290936, 0, 0.244914755, 0)
+coolderguasquadGui.Size = UDim2.new(0.497087806, 0, 0.603198349, 0)
+
+Frame2.Name = "Frame2"
+Frame2.Parent = coolderguasquadGui
+Frame2.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(-0.00037971852, 0, -0.000236443171, 0)
+Frame2.Size = UDim2.new(0.0055514751, 0, 1.00000012, 0)
+
+UIAspectRatioConstraint.Parent = Frame2
+UIAspectRatioConstraint.AspectRatio = 0.006
+
+Frame3.Name = "Frame3"
+Frame3.Parent = coolderguasquadGui
+Frame3.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame3.BorderSizePixel = 0
+Frame3.Position = UDim2.new(-0.000379635399, 0, -0.000236408887, 0)
+Frame3.Size = UDim2.new(1.00518298, 0, 0.00769230817, 0)
+
+UIAspectRatioConstraint_2.Parent = Frame3
+UIAspectRatioConstraint_2.AspectRatio = 137.454
+
+Frame9.Name = "Frame9"
+Frame9.Parent = coolderguasquadGui
+Frame9.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame9.BorderSizePixel = 0
+Frame9.Position = UDim2.new(0.999251783, 0, -0.000236443171, 0)
+Frame9.Size = UDim2.new(0.0055514751, 0, 1.00000012, 0)
+
+UIAspectRatioConstraint_3.Parent = Frame9
+UIAspectRatioConstraint_3.AspectRatio = 0.006
+
+Frame8.Name = "Frame8"
+Frame8.Parent = coolderguasquadGui
+Frame8.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame8.BorderSizePixel = 0
+Frame8.Position = UDim2.new(0.00076924375, 0, 0.99207139, 0)
+Frame8.Size = UDim2.new(1.00403416, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_4.Parent = Frame8
+UIAspectRatioConstraint_4.AspectRatio = 137.296
+
+Frame10.Name = "Frame10"
+Frame10.Parent = coolderguasquadGui
+Frame10.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame10.BorderSizePixel = 0
+Frame10.Position = UDim2.new(0.000629955437, 0, 0.934378982, 0)
+Frame10.Size = UDim2.new(1.0041734, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_5.Parent = Frame10
+UIAspectRatioConstraint_5.AspectRatio = 137.315
+
+Frame11.Name = "Frame11"
+Frame11.Parent = coolderguasquadGui
+Frame11.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame11.BorderSizePixel = 0
+Frame11.Position = UDim2.new(0.00076924375, 0, 0.857455909, 0)
+Frame11.Size = UDim2.new(1.00403416, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_6.Parent = Frame11
+UIAspectRatioConstraint_6.AspectRatio = 137.296
+
+Frame1.Name = "Frame1"
+Frame1.Parent = coolderguasquadGui
+Frame1.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderSizePixel = 0
+Frame1.Position = UDim2.new(0.00474876678, 0, 0.7728405, 0)
+Frame1.Size = UDim2.new(1.00005448, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_7.Parent = Frame1
+UIAspectRatioConstraint_7.AspectRatio = 136.752
+
+Frame6.Name = "Frame6"
+Frame6.Parent = coolderguasquadGui
+Frame6.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame6.BorderSizePixel = 0
+Frame6.Position = UDim2.new(0.00239604688, 0, 0.690148354, 0)
+Frame6.Size = UDim2.new(1.00240719, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_8.Parent = Frame6
+UIAspectRatioConstraint_8.AspectRatio = 137.074
+
+Frame13.Name = "Frame13"
+Frame13.Parent = coolderguasquadGui
+Frame13.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame13.BorderSizePixel = 0
+Frame13.Position = UDim2.new(0.00076924375, 0, 0.611302197, 0)
+Frame13.Size = UDim2.new(1.00403404, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_9.Parent = Frame13
+UIAspectRatioConstraint_9.AspectRatio = 137.296
+
+UIAspectRatioConstraint_10.Parent = coolderguasquadGui
+UIAspectRatioConstraint_10.AspectRatio = 1.052
+
+Frame16.Name = "Frame16"
+Frame16.Parent = coolderguasquadGui
+Frame16.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame16.BorderSizePixel = 0
+Frame16.Position = UDim2.new(0.00474876678, 0, 0.528609753, 0)
+Frame16.Size = UDim2.new(1.00005448, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_11.Parent = Frame16
+UIAspectRatioConstraint_11.AspectRatio = 136.752
+
+Frame16_2.Name = "Frame16"
+Frame16_2.Parent = coolderguasquadGui
+Frame16_2.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame16_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame16_2.BorderSizePixel = 0
+Frame16_2.Position = UDim2.new(0.00239604688, 0, 0.445917457, 0)
+Frame16_2.Size = UDim2.new(1.00240719, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_12.Parent = Frame16_2
+UIAspectRatioConstraint_12.AspectRatio = 137.074
+
+Frame7.Name = "Frame7"
+Frame7.Parent = coolderguasquadGui
+Frame7.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame7.BorderSizePixel = 0
+Frame7.Position = UDim2.new(-0.000379746227, 0, 0.372840524, 0)
+Frame7.Size = UDim2.new(0.999631584, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_13.Parent = Frame7
+UIAspectRatioConstraint_13.AspectRatio = 136.694
+
+Frame17.Name = "Frame17"
+Frame17.Parent = coolderguasquadGui
+Frame17.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame17.BorderSizePixel = 0
+Frame17.Position = UDim2.new(0.000629955437, 0, 0.292071313, 0)
+Frame17.Size = UDim2.new(0.998621881, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_14.Parent = Frame17
+UIAspectRatioConstraint_14.AspectRatio = 136.556
+
+Frame15.Name = "Frame15"
+Frame15.Parent = coolderguasquadGui
+Frame15.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame15.BorderSizePixel = 0
+Frame15.Position = UDim2.new(0.00076924375, 0, 0.213225156, 0)
+Frame15.Size = UDim2.new(1.00403416, 0, 0.00769232074, 0)
+
+UIAspectRatioConstraint_15.Parent = Frame15
+UIAspectRatioConstraint_15.AspectRatio = 137.296
+
+Frame18.Name = "Frame18"
+Frame18.Parent = coolderguasquadGui
+Frame18.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame18.BorderSizePixel = 0
+Frame18.Position = UDim2.new(0.00474874722, 0, 0.130243033, 0)
+Frame18.Size = UDim2.new(1.00005448, 0, 0.00769230351, 0)
+
+UIAspectRatioConstraint_16.Parent = Frame18
+UIAspectRatioConstraint_16.AspectRatio = 136.752
+
+Frame4.Name = "Frame4"
+Frame4.Parent = coolderguasquadGui
+Frame4.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame4.BorderSizePixel = 0
+Frame4.Position = UDim2.new(0.801840246, 0, 0.130243063, 0)
+Frame4.Size = UDim2.new(0.00810411572, 0, 0.727432311, 0)
+
+UIAspectRatioConstraint_17.Parent = Frame4
+UIAspectRatioConstraint_17.AspectRatio = 0.012
+
+Frame4_2.Name = "Frame4"
+Frame4_2.Parent = coolderguasquadGui
+Frame4_2.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame4_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame4_2.BorderSizePixel = 0
+Frame4_2.Position = UDim2.new(0.596824467, 0, 0.132489443, 0)
+Frame4_2.Size = UDim2.new(0.00810411572, 0, 0.727432311, 0)
+
+UIAspectRatioConstraint_18.Parent = Frame4_2
+UIAspectRatioConstraint_18.AspectRatio = 0.012
+
+Frame4_3.Name = "Frame4"
+Frame4_3.Parent = coolderguasquadGui
+Frame4_3.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame4_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame4_3.BorderSizePixel = 0
+Frame4_3.Position = UDim2.new(0.200278267, 0, 0.130243063, 0)
+Frame4_3.Size = UDim2.new(0.00750633655, 0, 0.727432311, 0)
+
+UIAspectRatioConstraint_19.Parent = Frame4_3
+UIAspectRatioConstraint_19.AspectRatio = 0.011
+
+coolderguasquad_2875FEV2.Name = "coolderguasquad_2875 FE V2"
+coolderguasquad_2875FEV2.Parent = coolderguasquadGui
+coolderguasquad_2875FEV2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+coolderguasquad_2875FEV2.BackgroundTransparency = 1.000
+coolderguasquad_2875FEV2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+coolderguasquad_2875FEV2.BorderSizePixel = 0
+coolderguasquad_2875FEV2.Position = UDim2.new(0.00640485203, 0, 0.00745591195, 0)
+coolderguasquad_2875FEV2.Size = UDim2.new(0.991909087, 0, 0.121472798, 0)
+coolderguasquad_2875FEV2.Font = Enum.Font.SourceSans
+coolderguasquad_2875FEV2.Text = "coolderguasquad_2875 FE V2"
+coolderguasquad_2875FEV2.TextColor3 = Color3.fromRGB(255, 255, 255)
+coolderguasquad_2875FEV2.TextScaled = true
+coolderguasquad_2875FEV2.TextSize = 31.000
+coolderguasquad_2875FEV2.TextWrapped = true
+
+UITextSizeConstraint.Parent = coolderguasquad_2875FEV2
+UITextSizeConstraint.MaxTextSize = 31
+
+UIAspectRatioConstraint_20.Parent = coolderguasquad_2875FEV2
+UIAspectRatioConstraint_20.AspectRatio = 8.589
+
+Scripts.Name = "Scripts"
+Scripts.Parent = coolderguasquadGui
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BackgroundTransparency = 1.000
+Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0.410591006, 0, 0.137935311, 0)
+Scripts.Size = UDim2.new(0.186233446, 0, 0.0752898306, 0)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.TextScaled = true
+Scripts.TextSize = 31.000
+Scripts.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = Scripts
+UITextSizeConstraint_2.MaxTextSize = 31
+
+UIAspectRatioConstraint_21.Parent = Scripts
+UIAspectRatioConstraint_21.AspectRatio = 2.602
+
+Guis.Name = "Guis"
+Guis.Parent = coolderguasquadGui
+Guis.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Guis.BackgroundTransparency = 1.000
+Guis.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Guis.BorderSizePixel = 0
+Guis.Position = UDim2.new(0.206795484, 0, 0.137935311, 0)
+Guis.Size = UDim2.new(0.196779862, 0, 0.075289838, 0)
+Guis.Font = Enum.Font.SourceSans
+Guis.Text = "Guis"
+Guis.TextColor3 = Color3.fromRGB(255, 255, 255)
+Guis.TextScaled = true
+Guis.TextSize = 31.000
+Guis.TextWrapped = true
+
+UITextSizeConstraint_3.Parent = Guis
+UITextSizeConstraint_3.MaxTextSize = 31
+
+UIAspectRatioConstraint_22.Parent = Guis
+UIAspectRatioConstraint_22.AspectRatio = 2.749
+
+ViewportFrame.BackgroundTransparency = 1.000
+ViewportFrame.AnchorPoint = Vector2.new(0, 0.5)
+ViewportFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ViewportFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ViewportFrame.Parent = coolderguasquadGui
+ViewportFrame.Position = UDim2.new(-0.627644658, 0, 0.479385108, 0)
+ViewportFrame.Visible = false
+
+UIAspectRatioConstraint_23.Parent = ViewportFrame
+UIAspectRatioConstraint_23.AspectRatio = 0.687
+
+OtherimportantGuis.Name = "Other important Guis"
+OtherimportantGuis.Parent = coolderguasquadGui
+OtherimportantGuis.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OtherimportantGuis.BackgroundTransparency = 1.000
+OtherimportantGuis.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OtherimportantGuis.BorderSizePixel = 0
+OtherimportantGuis.Position = UDim2.new(0.809944093, 0, 0.137935311, 0)
+OtherimportantGuis.Size = UDim2.new(0.188369721, 0, 0.0752898306, 0)
+OtherimportantGuis.Font = Enum.Font.SourceSans
+OtherimportantGuis.Text = "Decal Spams"
+OtherimportantGuis.TextColor3 = Color3.fromRGB(255, 255, 255)
+OtherimportantGuis.TextScaled = true
+OtherimportantGuis.TextSize = 31.000
+OtherimportantGuis.TextWrapped = true
+
+UITextSizeConstraint_4.Parent = OtherimportantGuis
+UITextSizeConstraint_4.MaxTextSize = 19
+
+UIAspectRatioConstraint_24.Parent = OtherimportantGuis
+UIAspectRatioConstraint_24.AspectRatio = 2.632
+
+Name.Name = "Name"
+Name.Parent = coolderguasquadGui
+Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Name.BackgroundTransparency = 1.000
+Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name.BorderSizePixel = 2
+Name.Position = UDim2.new(-0.237731054, 0, -0.00672618812, 0)
+Name.Size = UDim2.new(0.0298981294, 0, 0.0449276306, 0)
+Name.Visible = false
+Name.ZIndex = 4
+Name.Font = Enum.Font.SourceSans
+Name.Text = "Player"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextScaled = true
+Name.TextSize = 42.000
+Name.TextWrapped = true
+
+UITextSizeConstraint_5.Parent = Name
+UITextSizeConstraint_5.MaxTextSize = 42
+
+UIAspectRatioConstraint_25.Parent = Name
+UIAspectRatioConstraint_25.AspectRatio = 0.700
+
+Close.Name = "Close"
+Close.Parent = coolderguasquadGui
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.00640485203, 0, 0.942071557, 0)
+Close.Size = UDim2.new(0.991908848, 0, 0.0499998108, 0)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 24.000
+Close.TextWrapped = true
+
+UITextSizeConstraint_6.Parent = Close
+UITextSizeConstraint_6.MaxTextSize = 24
+
+UIAspectRatioConstraint_26.Parent = Close
+UIAspectRatioConstraint_26.AspectRatio = 20.868
+
+creditsframe.Name = "creditsframe"
+creditsframe.Parent = coolderguasquadGui
+creditsframe.BackgroundColor3 = Color3.fromRGB(2, 0, 3)
+creditsframe.BorderColor3 = Color3.fromRGB(0, 78, 204)
+creditsframe.BorderSizePixel = 4
+creditsframe.Position = UDim2.new(0.0277626142, 0, 0.240362778, 0)
+creditsframe.Size = UDim2.new(0.939655483, 0, 0.552609861, 0)
+creditsframe.Visible = false
+
+GUIDesignTttagjgjgj.Name = "GUI Design: @Tttagjgjgj"
+GUIDesignTttagjgjgj.Parent = creditsframe
+GUIDesignTttagjgjgj.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUIDesignTttagjgjgj.BackgroundTransparency = 1.000
+GUIDesignTttagjgjgj.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUIDesignTttagjgjgj.BorderSizePixel = 0
+GUIDesignTttagjgjgj.Position = UDim2.new(0.0204545446, 0, 0.166666672, 0)
+GUIDesignTttagjgjgj.Size = UDim2.new(0.454545468, 0, 0.203252032, 0)
+GUIDesignTttagjgjgj.Font = Enum.Font.SourceSans
+GUIDesignTttagjgjgj.Text = "GUI Design: @Tttagjgjgj"
+GUIDesignTttagjgjgj.TextColor3 = Color3.fromRGB(255, 255, 255)
+GUIDesignTttagjgjgj.TextScaled = true
+GUIDesignTttagjgjgj.TextSize = 25.000
+GUIDesignTttagjgjgj.TextWrapped = true
+
+UIAspectRatioConstraint_27.Parent = GUIDesignTttagjgjgj
+UIAspectRatioConstraint_27.AspectRatio = 4.000
+
+UITextSizeConstraint_7.Parent = GUIDesignTttagjgjgj
+UITextSizeConstraint_7.MaxTextSize = 25
+
+Scripterspanp_1.Name = "Scripter: @spanp_1"
+Scripterspanp_1.Parent = creditsframe
+Scripterspanp_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripterspanp_1.BackgroundTransparency = 1.000
+Scripterspanp_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scripterspanp_1.BorderSizePixel = 0
+Scripterspanp_1.Position = UDim2.new(-0.0250000004, 0, 0.304878056, 0)
+Scripterspanp_1.Size = UDim2.new(0.463636369, 0, 0.203252032, 0)
+Scripterspanp_1.Font = Enum.Font.SourceSans
+Scripterspanp_1.Text = "Scripter: @spanp_1"
+Scripterspanp_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripterspanp_1.TextScaled = true
+Scripterspanp_1.TextSize = 25.000
+Scripterspanp_1.TextWrapped = true
+
+UIAspectRatioConstraint_28.Parent = Scripterspanp_1
+UIAspectRatioConstraint_28.AspectRatio = 4.080
+
+UITextSizeConstraint_8.Parent = Scripterspanp_1
+UITextSizeConstraint_8.MaxTextSize = 25
+
+ButtonsIdeasIsomax2.Name = "Buttons Ideas: @Isomax2"
+ButtonsIdeasIsomax2.Parent = creditsframe
+ButtonsIdeasIsomax2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonsIdeasIsomax2.BackgroundTransparency = 1.000
+ButtonsIdeasIsomax2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonsIdeasIsomax2.BorderSizePixel = 0
+ButtonsIdeasIsomax2.Position = UDim2.new(0.0204545446, 0, 0.455284566, 0)
+ButtonsIdeasIsomax2.Size = UDim2.new(0.463636369, 0, 0.203252032, 0)
+ButtonsIdeasIsomax2.Font = Enum.Font.SourceSans
+ButtonsIdeasIsomax2.Text = "Buttons Ideas: @Isomax2"
+ButtonsIdeasIsomax2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonsIdeasIsomax2.TextScaled = true
+ButtonsIdeasIsomax2.TextSize = 25.000
+ButtonsIdeasIsomax2.TextWrapped = true
+
+UIAspectRatioConstraint_29.Parent = ButtonsIdeasIsomax2
+UIAspectRatioConstraint_29.AspectRatio = 4.080
+
+UITextSizeConstraint_9.Parent = ButtonsIdeasIsomax2
+UITextSizeConstraint_9.MaxTextSize = 25
+
+Ok.Name = "Ok!"
+Ok.Parent = creditsframe
+Ok.BackgroundColor3 = Color3.fromRGB(0, 78, 204)
+Ok.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ok.BorderSizePixel = 0
+Ok.Position = UDim2.new(0.839231193, 0, 0.858645082, 0)
+Ok.Size = UDim2.new(0.159090906, 0, 0.142276421, 0)
+Ok.Font = Enum.Font.SourceSans
+Ok.Text = "Ok!"
+Ok.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ok.TextScaled = true
+Ok.TextSize = 25.000
+Ok.TextWrapped = true
+
+UIAspectRatioConstraint_30.Parent = Ok
+UIAspectRatioConstraint_30.AspectRatio = 2.000
+
+UITextSizeConstraint_10.Parent = Ok
+UITextSizeConstraint_10.MaxTextSize = 25
+
+Frame.Parent = creditsframe
+Frame.BackgroundColor3 = Color3.fromRGB(0, 78, 204)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.160873786, 0)
+Frame.Size = UDim2.new(1, 0, 0.016260162, 0)
+
+UIAspectRatioConstraint_31.Parent = Frame
+UIAspectRatioConstraint_31.AspectRatio = 110.000
+
+GUIDesignTttagjgjgj_2.Name = "GUI Design: @Tttagjgjgj"
+GUIDesignTttagjgjgj_2.Parent = creditsframe
+GUIDesignTttagjgjgj_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUIDesignTttagjgjgj_2.BackgroundTransparency = 1.000
+GUIDesignTttagjgjgj_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUIDesignTttagjgjgj_2.BorderSizePixel = 0
+GUIDesignTttagjgjgj_2.Size = UDim2.new(1, 0, 0.158536583, 0)
+GUIDesignTttagjgjgj_2.Font = Enum.Font.SourceSans
+GUIDesignTttagjgjgj_2.Text = "Credits"
+GUIDesignTttagjgjgj_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GUIDesignTttagjgjgj_2.TextScaled = true
+GUIDesignTttagjgjgj_2.TextSize = 25.000
+GUIDesignTttagjgjgj_2.TextWrapped = true
+
+UIAspectRatioConstraint_32.Parent = GUIDesignTttagjgjgj_2
+UIAspectRatioConstraint_32.AspectRatio = 11.282
+
+UITextSizeConstraint_11.Parent = GUIDesignTttagjgjgj_2
+UITextSizeConstraint_11.MaxTextSize = 25
+
+UIAspectRatioConstraint_33.Parent = creditsframe
+UIAspectRatioConstraint_33.AspectRatio = 1.789
+
+Teamcoolderguasquad_2875.Name = "Team coolderguasquad_2875"
+Teamcoolderguasquad_2875.Parent = coolderguasquadGui
+Teamcoolderguasquad_2875.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Teamcoolderguasquad_2875.BackgroundTransparency = 1.000
+Teamcoolderguasquad_2875.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Teamcoolderguasquad_2875.BorderSizePixel = 0
+Teamcoolderguasquad_2875.Position = UDim2.new(0.00640491722, 0, 0.864448249, 0)
+Teamcoolderguasquad_2875.Size = UDim2.new(0.991908908, 0, 0.0699306354, 0)
+Teamcoolderguasquad_2875.Font = Enum.Font.SourceSans
+Teamcoolderguasquad_2875.Text = "Team coolderguasquad_2875 Is The Best!"
+Teamcoolderguasquad_2875.TextColor3 = Color3.fromRGB(255, 255, 255)
+Teamcoolderguasquad_2875.TextScaled = true
+Teamcoolderguasquad_2875.TextSize = 25.000
+Teamcoolderguasquad_2875.TextWrapped = true
+
+UITextSizeConstraint_12.Parent = Teamcoolderguasquad_2875
+UITextSizeConstraint_12.MaxTextSize = 25
+
+UIAspectRatioConstraint_34.Parent = Teamcoolderguasquad_2875
+UIAspectRatioConstraint_34.AspectRatio = 14.920
+
+walkspeedgui.Name = "walkspeedgui"
+walkspeedgui.Parent = coolderguasquadGui
+walkspeedgui.BackgroundColor3 = Color3.fromRGB(2, 0, 3)
+walkspeedgui.BorderColor3 = Color3.fromRGB(0, 78, 204)
+walkspeedgui.BorderSizePixel = 5
+walkspeedgui.Position = UDim2.new(0.221715152, 0, 0.308046073, 0)
+walkspeedgui.Size = UDim2.new(0.561175823, 0, 0.37402457, 0)
+walkspeedgui.Visible = false
+
+OK.Name = "OK"
+OK.Parent = walkspeedgui
+OK.BackgroundColor3 = Color3.fromRGB(0, 78, 204)
+OK.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK.Position = UDim2.new(0.20404911, 0, 0.68580687, 0)
+OK.Size = UDim2.new(0.591397822, 0, 0.231638417, 0)
+OK.Font = Enum.Font.SourceSans
+OK.Text = "APPLY"
+OK.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK.TextScaled = true
+OK.TextSize = 42.000
+OK.TextWrapped = true
+
+UIAspectRatioConstraint_35.Parent = OK
+UIAspectRatioConstraint_35.AspectRatio = 4.029
+
+UITextSizeConstraint_13.Parent = OK
+UITextSizeConstraint_13.MaxTextSize = 42
+
+TextBox.Parent = walkspeedgui
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 78, 204)
+TextBox.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox.Position = UDim2.new(0.247585997, 0, 0.403729975, 0)
+TextBox.Size = UDim2.new(0.494623661, 0, 0.209039569, 0)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(0, 54, 141)
+TextBox.PlaceholderText = "Speed Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 30.000
+TextBox.TextTransparency = 0.540
+TextBox.TextWrapped = true
+
+UIAspectRatioConstraint_36.Parent = TextBox
+UIAspectRatioConstraint_36.AspectRatio = 3.734
+
+UITextSizeConstraint_14.Parent = TextBox
+UITextSizeConstraint_14.MaxTextSize = 33
+
+TextLabel.Parent = walkspeedgui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 2.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 189, 130)
+TextLabel.BorderSizePixel = 4
+TextLabel.Position = UDim2.new(0.128760338, 0, -0.00512643578, 0)
+TextLabel.Size = UDim2.new(0.745519698, 0, 0.305084735, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "WalkSpeed"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 35.000
+TextLabel.TextWrapped = true
+
+UIAspectRatioConstraint_37.Parent = TextLabel
+UIAspectRatioConstraint_37.AspectRatio = 3.857
+
+UITextSizeConstraint_15.Parent = TextLabel
+UITextSizeConstraint_15.MaxTextSize = 35
+
+Frame_2.Parent = walkspeedgui
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 78, 204)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 189, 13)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.294308752, 0)
+Frame_2.Size = UDim2.new(1, 0, 0.0225988701, 0)
+
+UIAspectRatioConstraint_38.Parent = Frame_2
+UIAspectRatioConstraint_38.AspectRatio = 69.836
+
+TextButton.Parent = walkspeedgui
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 78, 204)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.810595453, 0, 0, 0)
+TextButton.Size = UDim2.new(0.190277323, 0, 0.270268798, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 44.000
+TextButton.TextWrapped = true
+
+UIAspectRatioConstraint_39.Parent = TextButton
+UIAspectRatioConstraint_39.AspectRatio = 1.111
+
+UITextSizeConstraint_16.Parent = TextButton
+UITextSizeConstraint_16.MaxTextSize = 44
+
+UIAspectRatioConstraint_40.Parent = walkspeedgui
+UIAspectRatioConstraint_40.AspectRatio = 1.578
+
+Frame4_4.Name = "Frame4"
+Frame4_4.Parent = coolderguasquadGui
+Frame4_4.BackgroundColor3 = Color3.fromRGB(0, 98, 255)
+Frame4_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame4_4.BorderSizePixel = 0
+Frame4_4.Position = UDim2.new(0.40357542, 0, 0.134589523, 0)
+Frame4_4.Size = UDim2.new(0.00750633655, 0, 0.729605496, 0)
+
+UIAspectRatioConstraint_41.Parent = Frame4_4
+UIAspectRatioConstraint_41.AspectRatio = 0.011
+
+OtherimportantGuis_2.Name = "Other important Guis"
+OtherimportantGuis_2.Parent = coolderguasquadGui
+OtherimportantGuis_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OtherimportantGuis_2.BackgroundTransparency = 1.000
+OtherimportantGuis_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OtherimportantGuis_2.BorderSizePixel = 0
+OtherimportantGuis_2.Position = UDim2.new(0.604928851, 0, 0.137935311, 0)
+OtherimportantGuis_2.Size = UDim2.new(0.196911782, 0, 0.0752898306, 0)
+OtherimportantGuis_2.Font = Enum.Font.SourceSans
+OtherimportantGuis_2.Text = "Skyboxes"
+OtherimportantGuis_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+OtherimportantGuis_2.TextScaled = true
+OtherimportantGuis_2.TextSize = 31.000
+OtherimportantGuis_2.TextWrapped = true
+
+UITextSizeConstraint_17.Parent = OtherimportantGuis_2
+UITextSizeConstraint_17.MaxTextSize = 28
+
+UIAspectRatioConstraint_42.Parent = OtherimportantGuis_2
+UIAspectRatioConstraint_42.AspectRatio = 2.751
+
+Cursors.Name = "Cursors"
+Cursors.Parent = coolderguasquadGui
+Cursors.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cursors.BackgroundTransparency = 1.000
+Cursors.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cursors.BorderSizePixel = 0
+Cursors.Position = UDim2.new(0.00640478684, 0, 0.137935311, 0)
+Cursors.Size = UDim2.new(0.193873554, 0, 0.075289838, 0)
+Cursors.Font = Enum.Font.SourceSans
+Cursors.Text = "Cursors"
+Cursors.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cursors.TextScaled = true
+Cursors.TextSize = 31.000
+Cursors.TextWrapped = true
+
+UITextSizeConstraint_18.Parent = Cursors
+UITextSizeConstraint_18.MaxTextSize = 31
+
+UIAspectRatioConstraint_43.Parent = Cursors
+UIAspectRatioConstraint_43.AspectRatio = 2.709
+
+_2006robloxcursor.Name = "2006 roblox cursor"
+_2006robloxcursor.Parent = coolderguasquadGui
+_2006robloxcursor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2006robloxcursor.BackgroundTransparency = 1.000
+_2006robloxcursor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2006robloxcursor.BorderSizePixel = 0
+_2006robloxcursor.Position = UDim2.new(0.00640485203, 0, 0.300008297, 0)
+_2006robloxcursor.Size = UDim2.new(0.193873525, 0, 0.0711538494, 0)
+_2006robloxcursor.Font = Enum.Font.SourceSans
+_2006robloxcursor.Text = "2006 roblox cursor"
+_2006robloxcursor.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2006robloxcursor.TextScaled = true
+_2006robloxcursor.TextSize = 16.000
+_2006robloxcursor.TextWrapped = true
+
+UITextSizeConstraint_19.Parent = _2006robloxcursor
+UITextSizeConstraint_19.MaxTextSize = 16
+
+UIAspectRatioConstraint_44.Parent = _2006robloxcursor
+UIAspectRatioConstraint_44.AspectRatio = 2.866
+
+YourcharacterGui.Name = "Your character Gui"
+YourcharacterGui.Parent = coolderguasquadGui
+YourcharacterGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+YourcharacterGui.BackgroundTransparency = 1.000
+YourcharacterGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+YourcharacterGui.BorderSizePixel = 0
+YourcharacterGui.Position = UDim2.new(0.208931059, 0, 0.299663067, 0)
+YourcharacterGui.Size = UDim2.new(0.196779862, 0, 0.0695944354, 0)
+YourcharacterGui.Font = Enum.Font.SourceSans
+YourcharacterGui.Text = "Your character Gui"
+YourcharacterGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+YourcharacterGui.TextScaled = true
+YourcharacterGui.TextSize = 16.000
+YourcharacterGui.TextWrapped = true
+
+UITextSizeConstraint_20.Parent = YourcharacterGui
+UITextSizeConstraint_20.MaxTextSize = 30
+
+UIAspectRatioConstraint_45.Parent = YourcharacterGui
+UIAspectRatioConstraint_45.AspectRatio = 2.974
+
+Lightoncharacter.Name = "Light on character"
+Lightoncharacter.Parent = coolderguasquadGui
+Lightoncharacter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lightoncharacter.BackgroundTransparency = 1.000
+Lightoncharacter.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Lightoncharacter.BorderSizePixel = 0
+Lightoncharacter.Position = UDim2.new(0.414898545, 0, 0.2975173, 0)
+Lightoncharacter.Size = UDim2.new(0.181925952, 0, 0.0753232241, 0)
+Lightoncharacter.Font = Enum.Font.SourceSans
+Lightoncharacter.Text = "Light on character"
+Lightoncharacter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lightoncharacter.TextScaled = true
+Lightoncharacter.TextSize = 16.000
+Lightoncharacter.TextWrapped = true
+
+UITextSizeConstraint_21.Parent = Lightoncharacter
+UITextSizeConstraint_21.MaxTextSize = 32
+
+UIAspectRatioConstraint_46.Parent = Lightoncharacter
+UIAspectRatioConstraint_46.AspectRatio = 2.541
+
+coolden_287DecalSpam.Name = "coolden_287 Decal Spam"
+coolden_287DecalSpam.Parent = coolderguasquadGui
+coolden_287DecalSpam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+coolden_287DecalSpam.BackgroundTransparency = 1.000
+coolden_287DecalSpam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+coolden_287DecalSpam.BorderSizePixel = 0
+coolden_287DecalSpam.Position = UDim2.new(0.809944093, 0, 0.220917478, 0)
+coolden_287DecalSpam.Size = UDim2.new(0.188369781, 0, 0.0711538345, 0)
+coolden_287DecalSpam.Font = Enum.Font.SourceSans
+coolden_287DecalSpam.Text = "coolden_287 Decal Spam"
+coolden_287DecalSpam.TextColor3 = Color3.fromRGB(255, 255, 255)
+coolden_287DecalSpam.TextScaled = true
+coolden_287DecalSpam.TextSize = 16.000
+coolden_287DecalSpam.TextWrapped = true
+
+UITextSizeConstraint_22.Parent = coolden_287DecalSpam
+UITextSizeConstraint_22.MaxTextSize = 30
+
+UIAspectRatioConstraint_47.Parent = coolden_287DecalSpam
+UIAspectRatioConstraint_47.AspectRatio = 2.785
+
+coolden_287Skybox.Name = "coolden_287 Skybox"
+coolden_287Skybox.Parent = coolderguasquadGui
+coolden_287Skybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+coolden_287Skybox.BackgroundTransparency = 1.000
+coolden_287Skybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+coolden_287Skybox.BorderSizePixel = 0
+coolden_287Skybox.Position = UDim2.new(0.604928851, 0, 0.220917478, 0)
+coolden_287Skybox.Size = UDim2.new(0.196911469, 0, 0.0711538345, 0)
+coolden_287Skybox.Font = Enum.Font.SourceSans
+coolden_287Skybox.Text = "coolden_287 Skybox"
+coolden_287Skybox.TextColor3 = Color3.fromRGB(255, 255, 255)
+coolden_287Skybox.TextScaled = true
+coolden_287Skybox.TextSize = 16.000
+coolden_287Skybox.TextWrapped = true
+
+UITextSizeConstraint_23.Parent = coolden_287Skybox
+UITextSizeConstraint_23.MaxTextSize = 30
+
+UIAspectRatioConstraint_48.Parent = coolden_287Skybox
+UIAspectRatioConstraint_48.AspectRatio = 2.911
+
+Isomax_EXEDecalSpam.Name = "Isomax_EXE Decal Spam"
+Isomax_EXEDecalSpam.Parent = coolderguasquadGui
+Isomax_EXEDecalSpam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Isomax_EXEDecalSpam.BackgroundTransparency = 1.000
+Isomax_EXEDecalSpam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Isomax_EXEDecalSpam.BorderSizePixel = 0
+Isomax_EXEDecalSpam.Position = UDim2.new(0.816350818, 0, 0.299540818, 0)
+Isomax_EXEDecalSpam.Size = UDim2.new(0.188369781, 0, 0.0711538345, 0)
+Isomax_EXEDecalSpam.Font = Enum.Font.SourceSans
+Isomax_EXEDecalSpam.Text = "Isomax_EXE Decal Spam"
+Isomax_EXEDecalSpam.TextColor3 = Color3.fromRGB(255, 255, 255)
+Isomax_EXEDecalSpam.TextScaled = true
+Isomax_EXEDecalSpam.TextSize = 16.000
+Isomax_EXEDecalSpam.TextWrapped = true
+
+UITextSizeConstraint_24.Parent = Isomax_EXEDecalSpam
+UITextSizeConstraint_24.MaxTextSize = 30
+
+UIAspectRatioConstraint_49.Parent = Isomax_EXEDecalSpam
+UIAspectRatioConstraint_49.AspectRatio = 2.785
+
+imguard_InvationstudiDecalSpam.Name = "imguard_Invationstudi Decal Spam"
+imguard_InvationstudiDecalSpam.Parent = coolderguasquadGui
+imguard_InvationstudiDecalSpam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+imguard_InvationstudiDecalSpam.BackgroundTransparency = 1.000
+imguard_InvationstudiDecalSpam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+imguard_InvationstudiDecalSpam.BorderSizePixel = 0
+imguard_InvationstudiDecalSpam.Position = UDim2.new(0.816350818, 0, 0.380410552, 0)
+imguard_InvationstudiDecalSpam.Size = UDim2.new(0.188369781, 0, 0.0711538345, 0)
+imguard_InvationstudiDecalSpam.Font = Enum.Font.SourceSans
+imguard_InvationstudiDecalSpam.Text = "imguard_Invationstudi Decal Spam"
+imguard_InvationstudiDecalSpam.TextColor3 = Color3.fromRGB(255, 255, 255)
+imguard_InvationstudiDecalSpam.TextScaled = true
+imguard_InvationstudiDecalSpam.TextSize = 16.000
+imguard_InvationstudiDecalSpam.TextWrapped = true
+
+UITextSizeConstraint_25.Parent = imguard_InvationstudiDecalSpam
+UITextSizeConstraint_25.MaxTextSize = 20
+
+UIAspectRatioConstraint_50.Parent = imguard_InvationstudiDecalSpam
+UIAspectRatioConstraint_50.AspectRatio = 2.785
+
+imguard_InvationstudiSkybox.Name = "imguard_Invationstudi Skybox"
+imguard_InvationstudiSkybox.Parent = coolderguasquadGui
+imguard_InvationstudiSkybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+imguard_InvationstudiSkybox.BackgroundTransparency = 1.000
+imguard_InvationstudiSkybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+imguard_InvationstudiSkybox.BorderSizePixel = 0
+imguard_InvationstudiSkybox.Position = UDim2.new(0.604928851, 0, 0.378164172, 0)
+imguard_InvationstudiSkybox.Size = UDim2.new(0.196911469, 0, 0.0711538345, 0)
+imguard_InvationstudiSkybox.Font = Enum.Font.SourceSans
+imguard_InvationstudiSkybox.Text = "imguard_Invationstudi Skybox"
+imguard_InvationstudiSkybox.TextColor3 = Color3.fromRGB(255, 255, 255)
+imguard_InvationstudiSkybox.TextScaled = true
+imguard_InvationstudiSkybox.TextSize = 16.000
+imguard_InvationstudiSkybox.TextWrapped = true
+
+UITextSizeConstraint_26.Parent = imguard_InvationstudiSkybox
+UITextSizeConstraint_26.MaxTextSize = 24
+
+UIAspectRatioConstraint_51.Parent = imguard_InvationstudiSkybox
+UIAspectRatioConstraint_51.AspectRatio = 2.911
+
+Fireoncharacter.Name = "Fire on character"
+Fireoncharacter.Parent = coolderguasquadGui
+Fireoncharacter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fireoncharacter.BackgroundTransparency = 1.000
+Fireoncharacter.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fireoncharacter.BorderSizePixel = 0
+Fireoncharacter.Position = UDim2.new(0.414898545, 0, 0.373894274, 0)
+Fireoncharacter.Size = UDim2.new(0.181925952, 0, 0.0753232241, 0)
+Fireoncharacter.Font = Enum.Font.SourceSans
+Fireoncharacter.Text = "Fire on character"
+Fireoncharacter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fireoncharacter.TextScaled = true
+Fireoncharacter.TextSize = 25.000
+Fireoncharacter.TextWrapped = true
+
+UITextSizeConstraint_27.Parent = Fireoncharacter
+UITextSizeConstraint_27.MaxTextSize = 32
+
+UIAspectRatioConstraint_52.Parent = Fireoncharacter
+UIAspectRatioConstraint_52.AspectRatio = 2.541
+
+SpeedChangerGui.Name = "Speed Changer Gui"
+SpeedChangerGui.Parent = coolderguasquadGui
+SpeedChangerGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpeedChangerGui.BackgroundTransparency = 1.000
+SpeedChangerGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpeedChangerGui.BorderSizePixel = 0
+SpeedChangerGui.Position = UDim2.new(0.205649033, 0, 0.386218518, 0)
+SpeedChangerGui.Size = UDim2.new(0.202806324, 0, 0.059698917, 0)
+SpeedChangerGui.Font = Enum.Font.SourceSans
+SpeedChangerGui.Text = "Speed Changer Gui"
+SpeedChangerGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedChangerGui.TextScaled = true
+SpeedChangerGui.TextSize = 16.000
+SpeedChangerGui.TextWrapped = true
+
+UITextSizeConstraint_28.Parent = SpeedChangerGui
+UITextSizeConstraint_28.MaxTextSize = 13
+
+UIAspectRatioConstraint_53.Parent = SpeedChangerGui
+UIAspectRatioConstraint_53.AspectRatio = 3.573
+
+Dynablocks2004cursor.Name = "Dynablocks 2004 cursor"
+Dynablocks2004cursor.Parent = coolderguasquadGui
+Dynablocks2004cursor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dynablocks2004cursor.BackgroundTransparency = 1.000
+Dynablocks2004cursor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dynablocks2004cursor.BorderSizePixel = 0
+Dynablocks2004cursor.Position = UDim2.new(0.00640485203, 0, 0.380532861, 0)
+Dynablocks2004cursor.Size = UDim2.new(0.193873525, 0, 0.0695943981, 0)
+Dynablocks2004cursor.Font = Enum.Font.SourceSans
+Dynablocks2004cursor.Text = "Dynablocks 2004 cursor"
+Dynablocks2004cursor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dynablocks2004cursor.TextScaled = true
+Dynablocks2004cursor.TextSize = 16.000
+Dynablocks2004cursor.TextWrapped = true
+
+UITextSizeConstraint_29.Parent = Dynablocks2004cursor
+UITextSizeConstraint_29.MaxTextSize = 16
+
+UIAspectRatioConstraint_54.Parent = Dynablocks2004cursor
+UIAspectRatioConstraint_54.AspectRatio = 2.930
+
+credits.Name = "credits"
+credits.Parent = coolderguasquadGui
+credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credits.BackgroundTransparency = 1.000
+credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+credits.BorderSizePixel = 0
+credits.Position = UDim2.new(0.208931059, 0, 0.456787527, 0)
+credits.Size = UDim2.new(0.194644421, 0, 0.0743533894, 0)
+credits.Font = Enum.Font.SourceSans
+credits.Text = "credits"
+credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+credits.TextScaled = true
+credits.TextSize = 20.000
+credits.TextWrapped = true
+
+UITextSizeConstraint_30.Parent = credits
+UITextSizeConstraint_30.MaxTextSize = 20
+
+UIAspectRatioConstraint_55.Parent = credits
+UIAspectRatioConstraint_55.AspectRatio = 2.754
+
+acseruis_297DecalSpam.Name = "acseruis_297 Decal Spam"
+acseruis_297DecalSpam.Parent = coolderguasquadGui
+acseruis_297DecalSpam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+acseruis_297DecalSpam.BackgroundTransparency = 1.000
+acseruis_297DecalSpam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+acseruis_297DecalSpam.BorderSizePixel = 0
+acseruis_297DecalSpam.Position = UDim2.new(0.816350818, 0, 0.456787527, 0)
+acseruis_297DecalSpam.Size = UDim2.new(0.188369781, 0, 0.0711538345, 0)
+acseruis_297DecalSpam.Font = Enum.Font.SourceSans
+acseruis_297DecalSpam.Text = "acseruis_297 Decal Spam"
+acseruis_297DecalSpam.TextColor3 = Color3.fromRGB(255, 255, 255)
+acseruis_297DecalSpam.TextScaled = true
+acseruis_297DecalSpam.TextSize = 16.000
+acseruis_297DecalSpam.TextWrapped = true
+
+UITextSizeConstraint_31.Parent = acseruis_297DecalSpam
+UITextSizeConstraint_31.MaxTextSize = 30
+
+UIAspectRatioConstraint_56.Parent = acseruis_297DecalSpam
+UIAspectRatioConstraint_56.AspectRatio = 2.785
+
+acseruis_297DecalSpam_2.Name = "acseruis_297 Decal Spam"
+acseruis_297DecalSpam_2.Parent = coolderguasquadGui
+acseruis_297DecalSpam_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+acseruis_297DecalSpam_2.BackgroundTransparency = 1.000
+acseruis_297DecalSpam_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+acseruis_297DecalSpam_2.BorderSizePixel = 0
+acseruis_297DecalSpam_2.Position = UDim2.new(0.816350818, 0, 0.535410881, 0)
+acseruis_297DecalSpam_2.Size = UDim2.new(0.188369781, 0, 0.0711538345, 0)
+acseruis_297DecalSpam_2.Font = Enum.Font.SourceSans
+acseruis_297DecalSpam_2.Text = "coolderguasquad_2875 Decal Spam"
+acseruis_297DecalSpam_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+acseruis_297DecalSpam_2.TextScaled = true
+acseruis_297DecalSpam_2.TextSize = 16.000
+acseruis_297DecalSpam_2.TextWrapped = true
+
+UITextSizeConstraint_32.Parent = acseruis_297DecalSpam_2
+UITextSizeConstraint_32.MaxTextSize = 20
+
+UIAspectRatioConstraint_57.Parent = acseruis_297DecalSpam_2
+UIAspectRatioConstraint_57.AspectRatio = 2.785
+
+Sparklesoncharacter.Name = "Sparkles on  character"
+Sparklesoncharacter.Parent = coolderguasquadGui
+Sparklesoncharacter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sparklesoncharacter.BackgroundTransparency = 1.000
+Sparklesoncharacter.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Sparklesoncharacter.BorderSizePixel = 0
+Sparklesoncharacter.Position = UDim2.new(0.414898545, 0, 0.531140983, 0)
+Sparklesoncharacter.Size = UDim2.new(0.181925952, 0, 0.0753232241, 0)
+Sparklesoncharacter.Font = Enum.Font.SourceSans
+Sparklesoncharacter.Text = "Sparkles on  character"
+Sparklesoncharacter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sparklesoncharacter.TextScaled = true
+Sparklesoncharacter.TextSize = 25.000
+Sparklesoncharacter.TextWrapped = true
+
+UITextSizeConstraint_33.Parent = Sparklesoncharacter
+UITextSizeConstraint_33.MaxTextSize = 32
+
+UIAspectRatioConstraint_58.Parent = Sparklesoncharacter
+UIAspectRatioConstraint_58.AspectRatio = 2.541
+
+Roblox2013cursor.Name = "Roblox 2013 cursor"
+Roblox2013cursor.Parent = coolderguasquadGui
+Roblox2013cursor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roblox2013cursor.BackgroundTransparency = 1.000
+Roblox2013cursor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Roblox2013cursor.BorderSizePixel = 0
+Roblox2013cursor.Position = UDim2.new(0.00640485203, 0, 0.224055052, 0)
+Roblox2013cursor.Size = UDim2.new(0.193873331, 0, 0.0750002638, 0)
+Roblox2013cursor.Font = Enum.Font.SourceSans
+Roblox2013cursor.Text = "Roblox 2013 cursor"
+Roblox2013cursor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Roblox2013cursor.TextScaled = true
+Roblox2013cursor.TextSize = 16.000
+Roblox2013cursor.TextWrapped = true
+
+UITextSizeConstraint_34.Parent = Roblox2013cursor
+UITextSizeConstraint_34.MaxTextSize = 16
+
+UIAspectRatioConstraint_59.Parent = Roblox2013cursor
+UIAspectRatioConstraint_59.AspectRatio = 2.719
+
+YourNameGui.Name = "Your Name Gui"
+YourNameGui.Parent = coolderguasquadGui
+YourNameGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+YourNameGui.BackgroundTransparency = 1.000
+YourNameGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+YourNameGui.BorderSizePixel = 0
+YourNameGui.Position = UDim2.new(0.207784608, 0, 0.220917538, 0)
+YourNameGui.Size = UDim2.new(0.195790783, 0, 0.07115376, 0)
+YourNameGui.Font = Enum.Font.SourceSans
+YourNameGui.Text = "Your Name Gui"
+YourNameGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+YourNameGui.TextScaled = true
+YourNameGui.TextSize = 16.000
+YourNameGui.TextWrapped = true
+
+UITextSizeConstraint_35.Parent = YourNameGui
+UITextSizeConstraint_35.MaxTextSize = 17
+
+UIAspectRatioConstraint_60.Parent = YourNameGui
+UIAspectRatioConstraint_60.AspectRatio = 2.894
+
+Noclip.Name = "Noclip"
+Noclip.Parent = coolderguasquadGui
+Noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.BackgroundTransparency = 1.000
+Noclip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.BorderSizePixel = 0
+Noclip.Position = UDim2.new(0.414898455, 0, 0.220917538, 0)
+Noclip.Size = UDim2.new(0.181925774, 0, 0.07115376, 0)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.TextScaled = true
+Noclip.TextSize = 16.000
+Noclip.TextWrapped = true
+
+UITextSizeConstraint_36.Parent = Noclip
+UITextSizeConstraint_36.MaxTextSize = 16
+
+UIAspectRatioConstraint_61.Parent = Noclip
+UIAspectRatioConstraint_61.AspectRatio = 2.689
+
+Isomax_EXESkybox.Name = "Isomax_EXE Skybox"
+Isomax_EXESkybox.Parent = coolderguasquadGui
+Isomax_EXESkybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Isomax_EXESkybox.BackgroundTransparency = 1.000
+Isomax_EXESkybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Isomax_EXESkybox.BorderSizePixel = 0
+Isomax_EXESkybox.Position = UDim2.new(0.602793276, 0, 0.299540818, 0)
+Isomax_EXESkybox.Size = UDim2.new(0.196911469, 0, 0.0711538345, 0)
+Isomax_EXESkybox.Font = Enum.Font.SourceSans
+Isomax_EXESkybox.Text = "Isomax_EXE Skybox"
+Isomax_EXESkybox.TextColor3 = Color3.fromRGB(255, 255, 255)
+Isomax_EXESkybox.TextScaled = true
+Isomax_EXESkybox.TextSize = 16.000
+Isomax_EXESkybox.TextWrapped = true
+
+UITextSizeConstraint_37.Parent = Isomax_EXESkybox
+UITextSizeConstraint_37.MaxTextSize = 30
+
+UIAspectRatioConstraint_62.Parent = Isomax_EXESkybox
+UIAspectRatioConstraint_62.AspectRatio = 2.911
+
+imguard_InvationstudiSkybox_2.Name = "imguard_Invationstudi Skybox"
+imguard_InvationstudiSkybox_2.Parent = coolderguasquadGui
+imguard_InvationstudiSkybox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+imguard_InvationstudiSkybox_2.BackgroundTransparency = 1.000
+imguard_InvationstudiSkybox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+imguard_InvationstudiSkybox_2.BorderSizePixel = 0
+imguard_InvationstudiSkybox_2.Position = UDim2.new(0.611335576, 0, 0.539903641, 0)
+imguard_InvationstudiSkybox_2.Size = UDim2.new(0.196911469, 0, 0.0711538345, 0)
+imguard_InvationstudiSkybox_2.Font = Enum.Font.SourceSans
+imguard_InvationstudiSkybox_2.Text = "acseruis_297 Skybox"
+imguard_InvationstudiSkybox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+imguard_InvationstudiSkybox_2.TextScaled = true
+imguard_InvationstudiSkybox_2.TextSize = 16.000
+imguard_InvationstudiSkybox_2.TextWrapped = true
+
+UITextSizeConstraint_38.Parent = imguard_InvationstudiSkybox_2
+UITextSizeConstraint_38.MaxTextSize = 30
+
+UIAspectRatioConstraint_63.Parent = imguard_InvationstudiSkybox_2
+UIAspectRatioConstraint_63.AspectRatio = 2.911
+
+imguard_InvationstudiSkybox_3.Name = "imguard_Invationstudi Skybox"
+imguard_InvationstudiSkybox_3.Parent = coolderguasquadGui
+imguard_InvationstudiSkybox_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+imguard_InvationstudiSkybox_3.BackgroundTransparency = 1.000
+imguard_InvationstudiSkybox_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+imguard_InvationstudiSkybox_3.BorderSizePixel = 0
+imguard_InvationstudiSkybox_3.Position = UDim2.new(0.604928851, 0, 0.452294767, 0)
+imguard_InvationstudiSkybox_3.Size = UDim2.new(0.196911469, 0, 0.0711538345, 0)
+imguard_InvationstudiSkybox_3.Font = Enum.Font.SourceSans
+imguard_InvationstudiSkybox_3.Text = "acseruis_297 Skybox"
+imguard_InvationstudiSkybox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+imguard_InvationstudiSkybox_3.TextScaled = true
+imguard_InvationstudiSkybox_3.TextSize = 16.000
+imguard_InvationstudiSkybox_3.TextWrapped = true
+
+UITextSizeConstraint_39.Parent = imguard_InvationstudiSkybox_3
+UITextSizeConstraint_39.MaxTextSize = 30
+
+UIAspectRatioConstraint_64.Parent = imguard_InvationstudiSkybox_3
+UIAspectRatioConstraint_64.AspectRatio = 2.911
+
+Smokeoncharacter.Name = "Smoke on  character"
+Smokeoncharacter.Parent = coolderguasquadGui
+Smokeoncharacter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Smokeoncharacter.BackgroundTransparency = 1.000
+Smokeoncharacter.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Smokeoncharacter.BorderSizePixel = 0
+Smokeoncharacter.Position = UDim2.new(0.414898545, 0, 0.448024869, 0)
+Smokeoncharacter.Size = UDim2.new(0.181925952, 0, 0.0753232241, 0)
+Smokeoncharacter.Font = Enum.Font.SourceSans
+Smokeoncharacter.Text = "Smoke on  character"
+Smokeoncharacter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Smokeoncharacter.TextScaled = true
+Smokeoncharacter.TextSize = 25.000
+Smokeoncharacter.TextWrapped = true
+
+UITextSizeConstraint_40.Parent = Smokeoncharacter
+UITextSizeConstraint_40.MaxTextSize = 32
+
+UIAspectRatioConstraint_65.Parent = Smokeoncharacter
+UIAspectRatioConstraint_65.AspectRatio = 2.541
+
+-- Scripts:
+
+local function USSG_fake_script() -- coolderguasquadGui.LocalScript 
+	local script = Instance.new('LocalScript', coolderguasquadGui)
+
+	--[[
+	Thanks for using this script
+	Want to know how to use this and script explanation? 
+	Check out my video here: https://youtu.be/aCs3f-nVWrE
+	 
+	]]
+	
+	--Don't forget to subscribe for more!
+	--Ask your questions in the comments from: https://youtu.be/aCs3f-nVWrE
+	--Tutorial by BloxianCode
+	local UIS = game:GetService("UserInputService")
+	
+	local draggableFrame = script.Parent
+	
+	local IsDragging = false 	--checks if the player is dragging the frame
+	local dragInput				--input variable which we will use later
+	local StartingPoint
+	local oldPos				--Old position from the frame
+	
+	local function update(input)
+		local delta = input.Position - StartingPoint
+		draggableFrame.Position = UDim2.new(oldPos.X.Scale, oldPos.X.Offset + delta.X, oldPos.Y.Scale, oldPos.Y.Offset + delta.Y)
+	end
+	
+	draggableFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			IsDragging = true
+			StartingPoint = input.Position
+			oldPos = draggableFrame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					IsDragging = false
+				end
+			end)
+		end
+	end)
+	
+	draggableFrame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and IsDragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(USSG_fake_script)()
+local function FZLHAS_fake_script() -- coolderguasquadGui.LocalScript 
+	local script = Instance.new('LocalScript', coolderguasquadGui)
+
+	-- Variables
+	local uis = game:GetService("UserInputService")
+	
+	local player = game.Players.LocalPlayer
+	local char = player.Character or player.CharacterAdded:Wait()
+	
+	local MouseInDisplay, HoldInDisplay = false, false
+	
+	local currentX
+	
+	-- Character Display
+	local VPFcam = Instance.new("Camera"); VPFcam.Parent = script.Parent.ViewportFrame
+	VPFcam.CFrame = CFrame.new(0,0,0)
+	script.Parent.ViewportFrame.CurrentCamera = VPFcam
+	
+	repeat wait(.1) until game:IsLoaded()
+	
+	char.Archivable = true
+	
+	local ClonedChar = char:Clone()
+	
+	ClonedChar.Parent = script.Parent.ViewportFrame.WorldModel
+	ClonedChar.Humanoid.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+	ClonedChar:SetPrimaryPartCFrame(CFrame.new(Vector3.new(0,0,-9.5),Vector3.new(0,0,0)))
+	
+	-- Turning Feature
+	uis.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			if MouseInDisplay == true then
+				HoldInDisplay = true
+				currentX = nil
+			end
+		end
+	end)
+	
+	uis.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			HoldInDisplay = false
+		end
+	end)
+	
+	script.Parent.ViewportFrame.MouseMoved:Connect(function(X,Y)
+	
+		if HoldInDisplay == false then return end
+		
+		if currentX then ClonedChar.PrimaryPart.CFrame *= CFrame.fromEulerAnglesXYZ(0,((X-currentX)*.025),0) end
+		
+		currentX = X
+	end)
+	
+	script.Parent.ViewportFrame.MouseEnter:Connect(function() MouseInDisplay = true end)
+	script.Parent.ViewportFrame.MouseLeave:Connect(function() MouseInDisplay = false end)
+end
+coroutine.wrap(FZLHAS_fake_script)()
+local function HLTUF_fake_script() -- Name.Script 
+	local script = Instance.new('Script', Name)
+
+	Player = script.Parent.Parent.Parent.Parent.Character
+	s = Player.Humanoid
+	while true do
+	script.Parent.Text = s.Parent.Name
+	wait()
+	end
+	
+	
+	
+end
+coroutine.wrap(HLTUF_fake_script)()
+local function EQTO_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(EQTO_fake_script)()
+local function EACQU_fake_script() -- Ok.LocalScript 
+	local script = Instance.new('LocalScript', Ok)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(EACQU_fake_script)()
+local function CKMTFK_fake_script() -- creditsframe.LocalScript 
+	local script = Instance.new('LocalScript', creditsframe)
+
+	--[[
+	Thanks for using this script
+	Want to know how to use this and script explanation? 
+	Check out my video here: https://youtu.be/aCs3f-nVWrE
+	 
+	]]
+	
+	--Don't forget to subscribe for more!
+	--Ask your questions in the comments from: https://youtu.be/aCs3f-nVWrE
+	--Tutorial by BloxianCode
+	local UIS = game:GetService("UserInputService")
+	
+	local draggableFrame = script.Parent
+	
+	local IsDragging = false 	--checks if the player is dragging the frame
+	local dragInput				--input variable which we will use later
+	local StartingPoint
+	local oldPos				--Old position from the frame
+	
+	local function update(input)
+		local delta = input.Position - StartingPoint
+		draggableFrame.Position = UDim2.new(oldPos.X.Scale, oldPos.X.Offset + delta.X, oldPos.Y.Scale, oldPos.Y.Offset + delta.Y)
+	end
+	
+	draggableFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			IsDragging = true
+			StartingPoint = input.Position
+			oldPos = draggableFrame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					IsDragging = false
+				end
+			end)
+		end
+	end)
+	
+	draggableFrame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and IsDragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(CKMTFK_fake_script)()
+local function IJNXXP_fake_script() -- OK.LocalScript 
+	local script = Instance.new('LocalScript', OK)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = game.Players.LocalPlayer
+	    local char = plr.Character
+	    local hum = char.Humanoid
+		hum.WalkSpeed = script.Parent.Parent.TextBox.Text
+	end)
+end
+coroutine.wrap(IJNXXP_fake_script)()
+local function IXAQ_fake_script() -- walkspeedgui.LocalScript 
+	local script = Instance.new('LocalScript', walkspeedgui)
+
+	--[[
+	Thanks for using this script
+	Want to know how to use this and script explanation? 
+	Check out my video here: https://youtu.be/aCs3f-nVWrE
+	 
+	]]
+	
+	--Don't forget to subscribe for more!
+	--Ask your questions in the comments from: https://youtu.be/aCs3f-nVWrE
+	--Tutorial by BloxianCode
+	local UIS = game:GetService("UserInputService")
+	
+	local draggableFrame = script.Parent
+	
+	local IsDragging = false 	--checks if the player is dragging the frame
+	local dragInput				--input variable which we will use later
+	local StartingPoint
+	local oldPos				--Old position from the frame
+	
+	local function update(input)
+		local delta = input.Position - StartingPoint
+		draggableFrame.Position = UDim2.new(oldPos.X.Scale, oldPos.X.Offset + delta.X, oldPos.Y.Scale, oldPos.Y.Offset + delta.Y)
+	end
+	
+	draggableFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			IsDragging = true
+			StartingPoint = input.Position
+			oldPos = draggableFrame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					IsDragging = false
+				end
+			end)
+		end
+	end)
+	
+	draggableFrame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and IsDragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(IXAQ_fake_script)()
+local function TTHYNQD_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(TTHYNQD_fake_script)()
+local function XEHTXG_fake_script() -- _2006robloxcursor.LocalScript 
+	local script = Instance.new('LocalScript', _2006robloxcursor)
+
+	local button = script.Parent
+	
+	button.Activated:Connect(function()
+		print("Button activated!")
+		local UserInputService = game:GetService("UserInputService")
+		UserInputService.MouseIcon = "rbxassetid://1000000"
+	end)
+	
+end
+coroutine.wrap(XEHTXG_fake_script)()
+local function BOMAUT_fake_script() -- YourcharacterGui.LocalScript 
+	local script = Instance.new('LocalScript', YourcharacterGui)
+
+	local Frame = script.Parent.Parent.ViewportFrame
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+	
+end
+coroutine.wrap(BOMAUT_fake_script)()
+local function ODTWGTG_fake_script() -- Lightoncharacter.SpotLightOnCharacter 
+	local script = Instance.new('LocalScript', Lightoncharacter)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local light = Instance.new("PointLight")
+		light.Brightness = 10
+		light.Range = 15
+		light.Color = Color3.new(1, 1, 1) -- Bright white light
+		light.Parent = character:WaitForChild("HumanoidRootPart")
+	end)
+	
+end
+coroutine.wrap(ODTWGTG_fake_script)()
+local function CXCT_fake_script() -- coolden_287DecalSpam.Script 
+	local script = Instance.new('Script', coolden_287DecalSpam)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=71557097619005" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=71557097619005"
+					Two.Texture = "http://www.roblox.com/asset/?id=71557097619005"
+					Three.Texture = "http://www.roblox.com/asset/?id=71557097619005"
+					Four.Texture = "http://www.roblox.com/asset/?id=71557097619005"
+					Five.Texture = "http://www.roblox.com/asset/?id=71557097619005"
+					Six.Texture = "http://www.roblox.com/asset/?id=71557097619005"--put id in here i will put it in description
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+	
+end
+coroutine.wrap(CXCT_fake_script)()
+local function UEKH_fake_script() -- coolden_287DecalSpam.Script 
+	local script = Instance.new('Script', coolden_287DecalSpam)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in Players:GetPlayers() do
+			if player.Character then
+				for _, part in player.Character:GetChildren() do
+					if part:IsA("BasePart") then
+						part.BrickColor = BrickColor.new("Really black")
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(UEKH_fake_script)()
+local function DWYB_fake_script() -- coolden_287Skybox.Script 
+	local script = Instance.new('Script', coolden_287Skybox)
+
+	local Lighting = game:GetService("Lighting")
+	
+	local function createNewSky()
+		-- Remove existing Sky objects
+		for _, sky in pairs(Lighting:GetChildren()) do
+			if sky:IsA("Sky") then
+				sky:Destroy()
+			end
+		end
+	
+		-- Create a new Sky
+		local newSky = Instance.new("Sky")
+		newSky.Parent = Lighting
+	
+		-- Set the skybox textures
+		local decalId = "rbxassetid://71557097619005"  -- Replace with your actual decal ID
+		newSky.SkyboxBk = decalId
+		newSky.SkyboxDn = decalId
+		newSky.SkyboxFt = decalId
+		newSky.SkyboxLf = decalId
+		newSky.SkyboxRt = decalId
+		newSky.SkyboxUp = decalId
+	end
+	
+	script.Parent.MouseButton1Click:Connect(createNewSky)
+	
+	
+end
+coroutine.wrap(DWYB_fake_script)()
+local function SNKULLQ_fake_script() -- Isomax_EXEDecalSpam.Script 
+	local script = Instance.new('Script', Isomax_EXEDecalSpam)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=106497730180866" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=106497730180866"
+					Two.Texture = "http://www.roblox.com/asset/?id=106497730180866"
+					Three.Texture = "http://www.roblox.com/asset/?id=106497730180866"
+					Four.Texture = "http://www.roblox.com/asset/?id=106497730180866"
+					Five.Texture = "http://www.roblox.com/asset/?id=106497730180866"
+					Six.Texture = "http://www.roblox.com/asset/?id=106497730180866"--put id in here i will put it in description
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+	
+end
+coroutine.wrap(SNKULLQ_fake_script)()
+local function WBYDAKP_fake_script() -- Isomax_EXEDecalSpam.Script 
+	local script = Instance.new('Script', Isomax_EXEDecalSpam)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in Players:GetPlayers() do
+			if player.Character then
+				for _, part in player.Character:GetChildren() do
+					if part:IsA("BasePart") then
+						part.BrickColor = BrickColor.new("Really black")
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(WBYDAKP_fake_script)()
+local function WBYIFL_fake_script() -- imguard_InvationstudiDecalSpam.Script 
+	local script = Instance.new('Script', imguard_InvationstudiDecalSpam)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=119821040693524" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=119821040693524"
+					Two.Texture = "http://www.roblox.com/asset/?id=119821040693524"
+					Three.Texture = "http://www.roblox.com/asset/?id=119821040693524"
+					Four.Texture = "http://www.roblox.com/asset/?id=119821040693524"
+					Five.Texture = "http://www.roblox.com/asset/?id=119821040693524"
+					Six.Texture = "http://www.roblox.com/asset/?id=119821040693524"--put id in here i will put it in description
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+	
+end
+coroutine.wrap(WBYIFL_fake_script)()
+local function HNZMX_fake_script() -- imguard_InvationstudiDecalSpam.Script 
+	local script = Instance.new('Script', imguard_InvationstudiDecalSpam)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in Players:GetPlayers() do
+			if player.Character then
+				for _, part in player.Character:GetChildren() do
+					if part:IsA("BasePart") then
+						part.BrickColor = BrickColor.new("Really black")
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(HNZMX_fake_script)()
+local function JQRCYC_fake_script() -- imguard_InvationstudiSkybox.Script 
+	local script = Instance.new('Script', imguard_InvationstudiSkybox)
+
+	local Lighting = game:GetService("Lighting")
+	
+	local function createNewSky()
+		-- Remove existing Sky objects
+		for _, sky in pairs(Lighting:GetChildren()) do
+			if sky:IsA("Sky") then
+				sky:Destroy()
+			end
+		end
+	
+		-- Create a new Sky
+		local newSky = Instance.new("Sky")
+		newSky.Parent = Lighting
+	
+		-- Set the skybox textures
+		local decalId = "rbxassetid://119821040693524"  -- Replace with your actual decal ID
+		newSky.SkyboxBk = decalId
+		newSky.SkyboxDn = decalId
+		newSky.SkyboxFt = decalId
+		newSky.SkyboxLf = decalId
+		newSky.SkyboxRt = decalId
+		newSky.SkyboxUp = decalId
+	end
+	
+	script.Parent.MouseButton1Click:Connect(createNewSky)
+	
+	
+end
+coroutine.wrap(JQRCYC_fake_script)()
+local function HNIFVHG_fake_script() -- Fireoncharacter.FireOnCharacter 
+	local script = Instance.new('LocalScript', Fireoncharacter)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	    local fire = Instance.new("Fire")
+	    fire.Parent = character:FindFirstChild("HumanoidRootPart") or character.PrimaryPart
+	end)
+	
+	
+end
+coroutine.wrap(HNIFVHG_fake_script)()
+local function TQJATR_fake_script() -- SpeedChangerGui.LocalScript 
+	local script = Instance.new('LocalScript', SpeedChangerGui)
+
+	local Frame = script.Parent.Parent.walkspeedgui
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+end
+coroutine.wrap(TQJATR_fake_script)()
+local function QLFUVM_fake_script() -- Dynablocks2004cursor.LocalScript 
+	local script = Instance.new('LocalScript', Dynablocks2004cursor)
+
+	local button = script.Parent
+	
+	button.Activated:Connect(function()
+		print("Button activated!")
+		local UserInputService = game:GetService("UserInputService")
+		UserInputService.MouseIcon = "rbxassetid://9977201490"
+	end)
+	
+end
+coroutine.wrap(QLFUVM_fake_script)()
+local function BAUQBO_fake_script() -- credits.LocalScript 
+	local script = Instance.new('LocalScript', credits)
+
+	local Frame = script.Parent.Parent.creditsframe
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+	
+end
+coroutine.wrap(BAUQBO_fake_script)()
+local function UEZHET_fake_script() -- acseruis_297DecalSpam.Script 
+	local script = Instance.new('Script', acseruis_297DecalSpam)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=134404862755842" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=134404862755842"
+					Two.Texture = "http://www.roblox.com/asset/?id=134404862755842"
+					Three.Texture = "http://www.roblox.com/asset/?id=134404862755842"
+					Four.Texture = "http://www.roblox.com/asset/?id=134404862755842"
+					Five.Texture = "http://www.roblox.com/asset/?id=134404862755842"
+					Six.Texture = "http://www.roblox.com/asset/?id=134404862755842"--put id in here i will put it in description
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+	
+end
+coroutine.wrap(UEZHET_fake_script)()
+local function BKUFHY_fake_script() -- acseruis_297DecalSpam.Script 
+	local script = Instance.new('Script', acseruis_297DecalSpam)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in Players:GetPlayers() do
+			if player.Character then
+				for _, part in player.Character:GetChildren() do
+					if part:IsA("BasePart") then
+						part.BrickColor = BrickColor.new("Really black")
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(BKUFHY_fake_script)()
+local function UIXORRK_fake_script() -- acseruis_297DecalSpam_2.Script 
+	local script = Instance.new('Script', acseruis_297DecalSpam_2)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=114911553482215" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=114911553482215"
+					Two.Texture = "http://www.roblox.com/asset/?id=114911553482215"
+					Three.Texture = "http://www.roblox.com/asset/?id=114911553482215"
+					Four.Texture = "http://www.roblox.com/asset/?id=114911553482215"
+					Five.Texture = "http://www.roblox.com/asset/?id=114911553482215"
+					Six.Texture = "http://www.roblox.com/asset/?id=114911553482215"--put id in here i will put it in description
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+	
+end
+coroutine.wrap(UIXORRK_fake_script)()
+local function AWFSG_fake_script() -- acseruis_297DecalSpam_2.Script 
+	local script = Instance.new('Script', acseruis_297DecalSpam_2)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in Players:GetPlayers() do
+			if player.Character then
+				for _, part in player.Character:GetChildren() do
+					if part:IsA("BasePart") then
+						part.BrickColor = BrickColor.new("Really black")
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(AWFSG_fake_script)()
+local function ROJFNIA_fake_script() -- Sparklesoncharacter.LocalScript 
+	local script = Instance.new('LocalScript', Sparklesoncharacter)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local fire = Instance.new("Sparkles")
+		fire.Parent = character:FindFirstChild("HumanoidRootPart") or character.PrimaryPart
+	end)
+	
+	
+end
+coroutine.wrap(ROJFNIA_fake_script)()
+local function NQAEEQ_fake_script() -- Roblox2013cursor.LocalScript 
+	local script = Instance.new('LocalScript', Roblox2013cursor)
+
+	local button = script.Parent
+	
+	button.Activated:Connect(function()
+		print("Button activated!")
+		local UserInputService = game:GetService("UserInputService")
+		UserInputService.MouseIcon = "rbxasset://textures/ArrowFarCursor.png"
+	end)
+	
+end
+coroutine.wrap(NQAEEQ_fake_script)()
+local function HBCNYT_fake_script() -- YourNameGui.LocalScript 
+	local script = Instance.new('LocalScript', YourNameGui)
+
+	local Frame = script.Parent.Parent.Name
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+	
+end
+coroutine.wrap(HBCNYT_fake_script)()
+local function CQCZP_fake_script() -- YourNameGui.LoadingScriptOnClick 
+	local script = Instance.new('LocalScript', YourNameGui)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	    print("Loading started...")
+	    -- Simulate loading process
+	    for i = 1, 10 do
+	        print("Loading... " .. i * 10 .. "%")
+	        task.wait(0.5)  -- Simulate loading delay
+	    end
+	    print("Loading completed!")
+	end)
+	
+	
+end
+coroutine.wrap(CQCZP_fake_script)()
+local function YLWCI_fake_script() -- Noclip.NoclipOnButtonClick 
+	local script = Instance.new('LocalScript', Noclip)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, part in ipairs(workspace:GetDescendants()) do
+			if part:IsA("BasePart") then
+				part.CanCollide = false
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(YLWCI_fake_script)()
+local function NVLCK_fake_script() -- Isomax_EXESkybox.Script 
+	local script = Instance.new('Script', Isomax_EXESkybox)
+
+	local Lighting = game:GetService("Lighting")
+	
+	local function createNewSky()
+		-- Remove existing Sky objects
+		for _, sky in pairs(Lighting:GetChildren()) do
+			if sky:IsA("Sky") then
+				sky:Destroy()
+			end
+		end
+	
+		-- Create a new Sky
+		local newSky = Instance.new("Sky")
+		newSky.Parent = Lighting
+	
+		-- Set the skybox textures
+		local decalId = "rbxassetid://106497730180866"  -- Replace with your actual decal ID
+		newSky.SkyboxBk = decalId
+		newSky.SkyboxDn = decalId
+		newSky.SkyboxFt = decalId
+		newSky.SkyboxLf = decalId
+		newSky.SkyboxRt = decalId
+		newSky.SkyboxUp = decalId
+	end
+	
+	script.Parent.MouseButton1Click:Connect(createNewSky)
+	
+	
+end
+coroutine.wrap(NVLCK_fake_script)()
+local function NDLN_fake_script() -- imguard_InvationstudiSkybox_2.Script 
+	local script = Instance.new('Script', imguard_InvationstudiSkybox_2)
+
+	local Lighting = game:GetService("Lighting")
+	
+	local function createNewSky()
+		-- Remove existing Sky objects
+		for _, sky in pairs(Lighting:GetChildren()) do
+			if sky:IsA("Sky") then
+				sky:Destroy()
+			end
+		end
+	
+		-- Create a new Sky
+		local newSky = Instance.new("Sky")
+		newSky.Parent = Lighting
+	
+		-- Set the skybox textures
+		local decalId = "rbxassetid://114911553482215"  -- Replace with your actual decal ID
+		newSky.SkyboxBk = decalId
+		newSky.SkyboxDn = decalId
+		newSky.SkyboxFt = decalId
+		newSky.SkyboxLf = decalId
+		newSky.SkyboxRt = decalId
+		newSky.SkyboxUp = decalId
+	end
+	
+	script.Parent.MouseButton1Click:Connect(createNewSky)
+	
+	
+end
+coroutine.wrap(NDLN_fake_script)()
+local function OIPUIZ_fake_script() -- imguard_InvationstudiSkybox_3.Script 
+	local script = Instance.new('Script', imguard_InvationstudiSkybox_3)
+
+	local Lighting = game:GetService("Lighting")
+	
+	local function createNewSky()
+		-- Remove existing Sky objects
+		for _, sky in pairs(Lighting:GetChildren()) do
+			if sky:IsA("Sky") then
+				sky:Destroy()
+			end
+		end
+	
+		-- Create a new Sky
+		local newSky = Instance.new("Sky")
+		newSky.Parent = Lighting
+	
+		-- Set the skybox textures
+		local decalId = "rbxassetid://134404862755842"  -- Replace with your actual decal ID
+		newSky.SkyboxBk = decalId
+		newSky.SkyboxDn = decalId
+		newSky.SkyboxFt = decalId
+		newSky.SkyboxLf = decalId
+		newSky.SkyboxRt = decalId
+		newSky.SkyboxUp = decalId
+	end
+	
+	script.Parent.MouseButton1Click:Connect(createNewSky)
+	
+	
+end
+coroutine.wrap(OIPUIZ_fake_script)()
+local function PTWAF_fake_script() -- Smokeoncharacter.LocalScript 
+	local script = Instance.new('LocalScript', Smokeoncharacter)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local fire = Instance.new("Smoke")
+		fire.Parent = character:FindFirstChild("HumanoidRootPart") or character.PrimaryPart
+	end)
+	
+	
+end
+coroutine.wrap(PTWAF_fake_script)()
